@@ -1,0 +1,504 @@
+﻿<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>XII Mostra de Estágios da UERJ</title>
+
+        <!-- define a viewport -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- adiciona o CSS Bootstrap -->
+        <link href="assets/xiime/css/bootstrap.min.css" rel="stylesheet" media="all">
+        <!-- adiciona o CSS personalizado -->
+        <link href="assets/xiime/css/estilo.css" rel="stylesheet" media="all">
+
+        <!-- adiciona as fontes do Google Web Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Open+Sans:400,700" rel="stylesheet">
+
+        <!-- favicons -->
+        <link rel="apple-touch-icon" sizes="57x57" href="assets/xiime/imgs/favicons/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="assets/xiime/imgs/favicons/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="assets/xiime/imgs/favicons/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="assets/xiime/imgs/favicons/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="assets/xiime/imgs/favicons/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="assets/xiime/imgs/favicons/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="assets/xiime/imgs/favicons/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="assets/xiime/imgs/favicons/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="assets/xiime/imgs/favicons/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="assets/xiime/imgs/favicons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/xiime/imgs/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="assets/xiime/imgs/favicons/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/xiime/imgs/favicons/favicon-16x16.png">
+        <link rel="manifest" href="assets/xiime/imgs/favicons/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="http://localhost:8000/assets/xiime/imgs/favicons/ms-icon-144x144.png">
+
+        <meta property="og:locale" content="pt_BR">
+        <meta property="og:url" content="https://www.mostravirtualuerj.com.br">
+        <meta property="og:title" content="XII Mostra de Estágios da UERJ">
+        <meta property="og:site_name" content="Mostra Virtual de Estágios da UERJ">
+        <meta property="og:description" content="Acesse e conheça a primeira Mostra de Estágios virtual da UERJ!">
+        <meta property="og:image" content="https://i.imgbox.com/iaBi1bbL.png">
+        <meta property="og:image:type" content="image/png">
+        <meta property="og:image:width" content="300">
+        <meta property="og:image:height" content="300">
+        <meta property="og:type" content="website">
+
+        <meta name="theme-color" content="#222">
+    </head>
+    
+    <body>
+        <!-- MENU DE NAVEGAÇÃO -->
+        <nav class="navbar navbar-inverse navbar-fixed-top"> 
+  	<div class="container">
+    	<div class="navbar-header">
+        	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+	        	<span class="sr-only">Toggle navigation</span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+	        	<span class="icon-bar"></span>
+        	</button>
+        	<a class="navbar-brand" href="index.htm"> 
+				<svg class="pull-left" xmlns="http://www.w3.org/2000/svg" width="54" viewbox="0 0 225 110"> <!-- https://developer.mozilla.org/en/docs/Web/SVG/Attribute/viewBox -->
+    <g class="logo-quadro"> <!-- espaço para o desenho -->
+        <g id="LogoMostra" data-name="LogoMostra"> <!-- camada -->
+            <path class="logo-letra-x" d="M229.39,173.11l-23.57-48.86,23.47-48a4.47,4.47,0,0,0,.32-3.55,4.36,4.36,0,0,0-2.32-2.59,4.59,4.59,0,0,0-6.11,2.14l-20.55,41.64L179.8,72.2a4.59,4.59,0,0,0-8.25,4l24,48-24,48.88a4.57,4.57,0,0,0,.29,4.4,4.36,4.36,0,0,0,3.85,2.17h49.59a4.36,4.36,0,0,0,3.84-2.15A4.6,4.6,0,0,0,229.39,173.11Zm-10.76-2.59H183l17.74-36Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-i" d="M225.26,69.62a4.54,4.54,0,0,0-4.59,4.59v100.9a4.59,4.59,0,0,0,9.18,0V74.21A4.54,4.54,0,0,0,225.26,69.62Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-i" d="M245,69.62a4.54,4.54,0,0,0-4.59,4.59v100.9a4.59,4.59,0,0,0,9.18,0V74.21A4.54,4.54,0,0,0,245,69.62Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-m" d="M350.34,174,326.2,73.11a4.67,4.67,0,0,0-9-.11l-21.74,83.9L273.58,73a4.47,4.47,0,0,0-4.44-3.39,4.59,4.59,0,0,0-4.44,3.52L240.56,174a5.2,5.2,0,0,0,.79,4A4.87,4.87,0,0,0,245,179.7H345.9a4.87,4.87,0,0,0,3.65-1.67l0-.06A5.18,5.18,0,0,0,350.34,174Zm-10.26-3.52H301.41l20.06-77.34Zm-50.6,0H250.82l18.61-77.34Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-e" d="M395.13,137.75a4.72,4.72,0,0,0-3.37-4.44l-33.44-8.65L391.77,116a4.71,4.71,0,0,0,3.35-4.43,4.46,4.46,0,0,0-3.37-4.44l-38.36-10,39.12-18.77a4.45,4.45,0,0,0,2.34-2.61,4.66,4.66,0,0,0-.19-3.51,4.45,4.45,0,0,0-2.61-2.34,4.67,4.67,0,0,0-3.52.19L338.11,94.34a4.55,4.55,0,0,0-2.61,4.45,4.73,4.73,0,0,0,3.37,4.13l33.44,8.65-33.43,8.65a4.61,4.61,0,0,0,0,8.88l33.46,8.66-33.45,8.78a4.41,4.41,0,0,0-3.38,4,4.88,4.88,0,0,0,2.6,4.58l50.45,24.14a4.71,4.71,0,0,0,2,.45,4.64,4.64,0,0,0,1.52-.25,4.45,4.45,0,0,0,2.61-2.34,4.66,4.66,0,0,0,.19-3.51,4.45,4.45,0,0,0-2.34-2.61L353.39,152.2l38.34-10A4.47,4.47,0,0,0,395.13,137.75Z" transform="translate(-171.1 -69.62)"></path>
+        </g>
+    </g>
+</svg>        	</a>
+    	</div>
+    	<div id="navbar" class="collapse navbar-collapse">
+			<ul class="nav navbar-nav">
+				<li>
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown">As Empresas <span class="caret"></span></a>
+				
+					<ul class="dropdown-menu" role="menu">
+                        <li><a href="#" class="text-diamond" target="_blank">Bradesco</a></li>
+                        <li><a href="#" class="text-diamond">IEL</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" class="text-gold">CEPUERJ</a></li>
+                        <li class="divider"></li>
+                        <li><a href="#" class="text-silver">CIEE</a></li>
+                        <li><a href="#" class="text-silver">Observe</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="faleconosco.html">Fale Conosco</a>
+				</li>										
+			</ul>
+							<p class="navbar-text navbar-right"><a href="login.html" class="text-yellow">Entrar na Mostra</a></p>
+			    	</div><!--/.nav-collapse -->
+	</div>
+</nav>
+
+        <!-- notificação global (provisória) -->
+        
+        <!-- CONTEUDO DINAMICO -->
+        
+<div class="brzao"></div>
+
+<div class="container">
+
+    <div class="row">
+        <div class="col-md-12">
+            <h3>Formulário de Cadastro</h3>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-12">
+            <p>Bem vindo ao ambiente de registro da 12ª Mostra de EStágios CETREINA/SR1/UERJ!</p>
+            <p>O evento acontecerá do dia 01 a 04 de dezembro de 2016.</p>
+            <p>Agora você poderá inserir suas informações para ter o <strong><span class="popoverFormCadastro" data-content="Disponível para download ao fim do evento." rel="popover" data-placement="top" data-original-title="Aviso">certificado</span></strong> e acesso gratuito a todo o ambiente virtual e aproveitar todas as oportunidades dispostas na plataforma.</p>
+            <p>Complete seu registro abaixo. Todos os campos são de preenchimento obrigatório.</p>
+        </div>
+
+        <div class="col-md-12">
+                    </div>
+    </div>
+
+    <div class="row">
+        <form role="form" name="formcadastro" method="POST" action="http://localhost:8000/cadastrar">
+            <input type="hidden" name="_token" value="HCPpGDn4ZwCA4SW2WAOLN0amfGjvn5acU2wUFuZw">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="nome" class="control-label">Nome Completo:</label>
+                    <input id="nome" type="text" name="nome" class="form-control" value="" pattern=".{8,}" placeholder="Informe seu nome completo" title="Mínimo 8 caracteres." maxlength="96" required="" autofocus="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="email" class="control-label">Email:</label>
+                    <input id="email" type="email" name="email" class="form-control" value="" placeholder="exemplo@email.com" maxlength="128" required="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="telefone" class="control-label">Telefone:</label>
+                    <input id="telefone" type="text" name="telefone" class="form-control" value="" title="Informe os 11 dígitos. Ex.: 21988887777" placeholder="21988887777" pattern=".{11,}" maxlength="11" required="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="senha" class="control-label">Senha:</label>
+                    <input id="senha" type="password" class="form-control" name="senha" pattern=".{6,}" placeholder="Crie uma senha..." title="Mínimo 6 caracteres." maxlength="32" required="">
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="confirma_senha" class="control-label">Confirme a senha:</label>
+                    <input id="confirma_senha" type="password" class="form-control" name="senha_confirmation" pattern=".{6,}" placeholder="Confirme ela aqui..." title="Mínimo 6 caracteres." maxlength="32" required="">
+                </div>
+            </div>
+
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label class="control-label">Origem:</label>
+                    
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="origem" value="UERJ">
+                            UERJ - Universidade do Estado do Rio de Janeiro
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="origem" value="FAETEC">
+                            FAETEC - Fundação de Apoio à Escola Técnica
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="origem" value="FIA">
+                            FIA - Fundação para a Infância e Adolescência
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="origem" value="OUTRAS">
+                            Outras
+                        </label>
+                    </div>
+                </div>
+            </div>
+
+            <div id="dados_complementares_instituicoes">
+                
+                
+                <div id="dados-complementares-uerj" class="col-md-12 flag-dadoscomp">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="uerj_matricula" class="control-label">Matrícula:</label>
+                                <input id="uerj_matricula" type="text" class="form-control" name="matricula" value="" placeholder="Matrícula (somente números)" maxlength="12" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="uerj_periodo" class="control-label">Período:</label>
+                                <select name="uerj_periodo" id="uerj_periodo" class="form-control">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="PRIMEIRO">PRIMEIRO</option>
+                                                                            <option value="SEGUNDO">SEGUNDO</option>
+                                                                            <option value="TERCEIRO">TERCEIRO</option>
+                                                                            <option value="QUARTO">QUARTO</option>
+                                                                            <option value="QUINTO">QUINTO</option>
+                                                                            <option value="SEXTO">SEXTO</option>
+                                                                            <option value="SÉTIMO">SÉTIMO</option>
+                                                                            <option value="OITAVO">OITAVO</option>
+                                                                            <option value="NONO">NONO</option>
+                                                                            <option value="DÉCIMO">DÉCIMO</option>
+                                                                            <option value="TRANCADO">TRANCADO</option>
+                                                                            <option value="CONCLUIDO">CONCLUÍDO</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="uerj_atividade" class="control-label">Atividade Acadêmica ou Profissional:</label>
+                                <select name="uerj_atividade" id="uerj_atividade" class="form-control" disabled="">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="Nenhuma" class="default">Nenhuma</option>
+                                                                            <option value="Monitoria" class="academica">Monitoria</option>
+                                                                            <option value="Iniciação Científica" class="academica">Iniciação Científica</option>
+                                                                            <option value="Iniciação à Docência" class="academica">Iniciação à Docência</option>
+                                                                            <option value="Estágio Interno Complementar" class="academica">Estágio Interno Complementar</option>
+                                                                            <option value="Bolsista de Extensão" class="academica">Bolsista de Extensão</option>
+                                                                            <option value="Estágio Externo" class="academica">Estágio Externo</option>
+                                                                            <option value="Na área de formação no setor público" class="profissional">Na área de formação no setor público</option>
+                                                                            <option value="Na área de formação no setor privado" class="profissional">Na área de formação no setor privado</option>
+                                                                            <option value="Fora da área de fornação no setor público" class="profissional">Fora da área de fornação no setor público</option>
+                                                                            <option value="Fora da área de fornação no setor privado" class="profissional">Fora da área de fornação no setor privado</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="uerj_centro_setorial" class="control-label">Centro Setorial:</label>
+                                <select name="uerj_centro_setorial" id="uerj_centro_setorial" class="form-control">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="Educação e Humanidades">Educação e Humanidades</option>
+                                                                            <option value="Tecnologia e Ciências">Tecnologia e Ciências</option>
+                                                                            <option value="Biomédico">Biomédico</option>
+                                                                            <option value="Ciências Sociais">Ciências Sociais</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="uerj_unidade_academica" class="control-label">Unidade Acadêmica:</label>
+                                <select name="uerj_unidade_academica" id="uerj_unidade_academica" class="form-control" disabled="">
+                                    <option value="">Escolha...</option>
+                                                                                                                        <option value="Faculdade de Comunicação Social" class="7c39883929acbf39e84fbb574a8de87b">Faculdade de Comunicação Social</option>
+                                                                                    <option value="Instituto de Artes" class="7c39883929acbf39e84fbb574a8de87b">Instituto de Artes</option>
+                                                                                    <option value="Faculdade de Educação" class="7c39883929acbf39e84fbb574a8de87b">Faculdade de Educação</option>
+                                                                                    <option value="Faculdade de Educação Baixada Fluminense (Duque de Caxias)" class="7c39883929acbf39e84fbb574a8de87b">Faculdade de Educação Baixada Fluminense (Duque de Caxias)</option>
+                                                                                    <option value="Instituto de Educação Física e Desporto" class="7c39883929acbf39e84fbb574a8de87b">Instituto de Educação Física e Desporto</option>
+                                                                                    <option value="Faculdade de Formação de Professores (São Gonçalo)" class="7c39883929acbf39e84fbb574a8de87b">Faculdade de Formação de Professores (São Gonçalo)</option>
+                                                                                    <option value="Instituto de Letras" class="7c39883929acbf39e84fbb574a8de87b">Instituto de Letras</option>
+                                                                                    <option value="Instituto de Psicologia" class="7c39883929acbf39e84fbb574a8de87b">Instituto de Psicologia</option>
+                                                                                                                                                                <option value="Faculdade de Engenharia" class="c6205d1a486829b2120b88ee07e04e84">Faculdade de Engenharia</option>
+                                                                                    <option value="Faculdade de Tecnologia (Resende)" class="c6205d1a486829b2120b88ee07e04e84">Faculdade de Tecnologia (Resende)</option>
+                                                                                    <option value="Instituto Politécnico (Friburgo)" class="c6205d1a486829b2120b88ee07e04e84">Instituto Politécnico (Friburgo)</option>
+                                                                                    <option value="Escola Superior de Desenho Industrial" class="c6205d1a486829b2120b88ee07e04e84">Escola Superior de Desenho Industrial</option>
+                                                                                    <option value="Instituto de Física Armando Dias Tavares" class="c6205d1a486829b2120b88ee07e04e84">Instituto de Física Armando Dias Tavares</option>
+                                                                                    <option value="Instituto de Geografia" class="c6205d1a486829b2120b88ee07e04e84">Instituto de Geografia</option>
+                                                                                    <option value="Faculdade de Oceanografia" class="c6205d1a486829b2120b88ee07e04e84">Faculdade de Oceanografia</option>
+                                                                                    <option value="Faculdade de Geologia" class="c6205d1a486829b2120b88ee07e04e84">Faculdade de Geologia</option>
+                                                                                    <option value="Instituto de Matemática e Estatística" class="c6205d1a486829b2120b88ee07e04e84">Instituto de Matemática e Estatística</option>
+                                                                                    <option value="Instituto de Química" class="c6205d1a486829b2120b88ee07e04e84">Instituto de Química</option>
+                                                                                                                                                                <option value="Instituto de Biologia Roberto Alcântara Gomes" class="c06d0191df887d56e19d391c361b9f4f">Instituto de Biologia Roberto Alcântara Gomes</option>
+                                                                                    <option value="Faculdade de Enfermagem" class="c06d0191df887d56e19d391c361b9f4f">Faculdade de Enfermagem</option>
+                                                                                    <option value="Faculdade de Medicina" class="c06d0191df887d56e19d391c361b9f4f">Faculdade de Medicina</option>
+                                                                                    <option value="Instituto de Nutrição" class="c06d0191df887d56e19d391c361b9f4f">Instituto de Nutrição</option>
+                                                                                    <option value="Faculdade de Odontologia" class="c06d0191df887d56e19d391c361b9f4f">Faculdade de Odontologia</option>
+                                                                                                                                                                <option value="Faculdade de Administração e Finanças" class="0377659fb977b05a5d5c73616eba35ad">Faculdade de Administração e Finanças</option>
+                                                                                    <option value="Faculdade de Direito" class="0377659fb977b05a5d5c73616eba35ad">Faculdade de Direito</option>
+                                                                                    <option value="Faculdade de Ciências Econômicas" class="0377659fb977b05a5d5c73616eba35ad">Faculdade de Ciências Econômicas</option>
+                                                                                    <option value="Instituto de Filosofia e Ciências Humanas" class="0377659fb977b05a5d5c73616eba35ad">Instituto de Filosofia e Ciências Humanas</option>
+                                                                                    <option value="Faculdade de Serviço Social" class="0377659fb977b05a5d5c73616eba35ad">Faculdade de Serviço Social</option>
+                                                                                                            </select>
+                            </div>
+                        </div>
+                    </div>    
+                </div>
+                
+
+                
+                <div id="dados-complementares-faetec" class="col-md-12 flag-dadoscomp">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="faetec_area_atuacao" class="control-label">Área de Atuação:</label>
+                                <input id="faetec_area_atuacao" name="faetec_area_atuacao" class="form-control" value="" type="text" maxlength="96" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="faetec_serie_atual" class="control-label">Série Atual:</label>
+                                <input id="faetec_serie_atual" name="faetec_serie_atual" class="form-control" value="" type="text" maxlength="64" required="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+                
+                <div id="dados-complementares-fia" class="col-md-12 flag-dadoscomp">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="fia_nome_escola" class="control-label">Nome da Escola:</label>
+                                <input id="fia_nome_escola" name="fia_nome_escola" class="form-control" value="" type="text" maxlength="128" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="fia_serie_atual" class="control-label">Série Atual:</label>
+                                <select name="fia_serie_atual" class="form-control">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="QUINTO ANO DO ENSINO FUNDAMENTAL">QUINTO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="SEXTO ANO DO ENSINO FUNDAMENTAL">SEXTO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="SÉTIMO ANO DO ENSINO FUNDAMENTAL">SÉTIMO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="OITAVO ANO DO ENSINO FUNDAMENTAL">OITAVO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="NONO ANO DO ENSINO FUNDAMENTAL">NONO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="PRIMEIRO ANO DO ENSINO MÉDIO">PRIMEIRO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="SEGUNDO ANO DO ENSINO MÉDIO">SEGUNDO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="TERCEIRO ANO DO ENSINO MÉDIO">TERCEIRO ANO DO ENSINO MÉDIO</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                
+                <div id="dados-complementares-outras" class="col-md-12 flag-dadoscomp">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label">Categoria Administrativa:</label>
+
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="outras_tipo" value="PUBLICA">
+                                        Pública
+                                    </label>
+                                </div>
+                                <div class="radio">
+                                    <label>
+                                        <input type="radio" name="outras_tipo" value="PRIVADA">
+                                        Privada
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="outras_nome" class="control-label">Nome da Instituição:</label>
+                                <input id="outras_nome" type="text" class="form-control" name="outras_nome" maxlength="128" required="">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="outras_serie_atual" class="control-label">Ano/Série Atual:</label>
+                                <select name="outras_serie_atual" class="form-control">
+                                    <option value="">Escolha...</option>
+                                                                            <option value="QUINTO ANO DO ENSINO FUNDAMENTAL" class="option-fundamental">QUINTO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="SEXTO ANO DO ENSINO FUNDAMENTAL" class="option-fundamental">SEXTO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="SÉTIMO ANO DO ENSINO FUNDAMENTAL" class="option-fundamental">SÉTIMO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="OITAVO ANO DO ENSINO FUNDAMENTAL" class="option-fundamental">OITAVO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="NONO ANO DO ENSINO FUNDAMENTAL" class="option-fundamental">NONO ANO DO ENSINO FUNDAMENTAL</option>
+                                                                            <option value="PRIMEIRO ANO DO ENSINO MÉDIO" class="option-medio">PRIMEIRO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="SEGUNDO ANO DO ENSINO MÉDIO" class="option-medio">SEGUNDO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="TERCEIRO ANO DO ENSINO MÉDIO" class="option-medio">TERCEIRO ANO DO ENSINO MÉDIO</option>
+                                                                            <option value="ENSINO MÉDIO CONCLUÍDO" class="option-medio">ENSINO MÉDIO CONCLUÍDO</option>
+                                                                            <option value="PRIMEIRO PERÍODO (GRADUAÇÃO)" class="option-superior">PRIMEIRO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="SEGUNDO PERÍODO (GRADUAÇÃO)" class="option-superior">SEGUNDO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="TERCEIRO PERÍODO (GRADUAÇÃO)" class="option-superior">TERCEIRO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="QUARTO PERÍODO (GRADUAÇÃO)" class="option-superior">QUARTO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="QUINTO PERÍODO (GRADUAÇÃO)" class="option-superior">QUINTO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="SEXTO PERÍODO (GRADUAÇÃO)" class="option-superior">SEXTO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="SÉTIMO PERÍODO (GRADUAÇÃO)" class="option-superior">SÉTIMO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="OITAVO PERÍODO (GRADUAÇÃO)" class="option-superior">OITAVO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="NONO PERÍODO (GRADUAÇÃO)" class="option-superior">NONO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="DÉCIMO PERÍODO (GRADUAÇÃO)" class="option-superior">DÉCIMO PERÍODO (GRADUAÇÃO)</option>
+                                                                            <option value="GRADUAÇÃO CONCLUÍDA" class="option-superior">GRADUAÇÃO CONCLUÍDA</option>
+                                                                    </select>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            
+            <div class="col-md-12" style="border-top:2px solid #777">&nbsp;</div>
+
+            
+            <div class="col-md-6">
+                <p>Por favor, antes de prosseguir, clique em "Não sou um robô" ao lado para verificação do seu cadastro.</p>
+                <p>Clicando em "Prosseguir", você concorda com a veracidade das informações fornecidas para o cadastro, que pode implicar em futuas oportunidades ou contato de empresas participantes do evento.</p>
+            </div>
+
+            <div id="recaptcha" class="col-md-4">
+                <script type="text/javascript">
+        var RecaptchaOptions = {"curl_timeout":1};
+    </script>
+<script src='https://www.google.com/recaptcha/api.js?render=onload'></script>
+<div class="g-recaptcha" data-sitekey="6LeyHwkUAAAAAM8ovbYRS6mvyhybR06o5wpmCnZX"></div>
+<noscript>
+    <div style="width: 302px; height: 352px;">
+        <div style="width: 302px; height: 352px; position: relative;">
+            <div style="width: 302px; height: 352px; position: absolute;">
+                <iframe src="https://www.google.com/recaptcha/api/fallback?k=6LeyHwkUAAAAAM8ovbYRS6mvyhybR06o5wpmCnZX" frameborder="0" scrolling="no" style="width: 302px; height:352px; border-style: none;">
+                </iframe>
+            </div>
+            <div style="width: 250px; height: 80px; position: absolute; border-style: none;
+                  bottom: 21px; left: 25px; margin: 0; padding: 0; right: 25px;">
+        <textarea id="g-recaptcha-response" name="g-recaptcha-response" class="g-recaptcha-response" style="width: 250px; height: 80px; border: 1px solid #c1c1c1;
+                         margin: 0; padding: 0; resize: none;"></textarea>
+            </div>
+        </div>
+    </div>
+</noscript>
+
+            </div>
+            
+
+            
+            <div class="col-md-2 hidden-xs hidden-sm">
+                <button type="submit" class="btn btn-primary btn-lg pull-right">Prosseguir</button>
+            </div>
+
+            
+            <div class="col-md-2 hidden-md hidden-lg">
+                <div class="clearfix">&nbsp;</div>
+                <button type="submit" class="btn btn-lg btn-success btn-block">Prosseguir</button>
+            </div>
+        </form>
+    </div>
+
+</div>
+
+<div class="brzao"></div>
+
+
+        <!-- RODAPÉ -->
+        <div id="footer" class="text-left text-white bg-black padding-top padding-bottom">
+
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-lg-6">
+                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FMostra-Virtual-UERJ-1247642671926107%2F%3Ffref%3Dts&tabs&width=600&height=275&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="100%" height="200" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowtransparency="true">
+                </iframe>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-lg-6">
+                <svg class="pull-left" xmlns="http://www.w3.org/2000/svg" width="50" viewbox="0 0 225 110"> <!-- https://developer.mozilla.org/en/docs/Web/SVG/Attribute/viewBox -->
+    <g class="logo-quadro"> <!-- espaço para o desenho -->
+        <g id="LogoMostra" data-name="LogoMostra"> <!-- camada -->
+            <path class="logo-letra-x" d="M229.39,173.11l-23.57-48.86,23.47-48a4.47,4.47,0,0,0,.32-3.55,4.36,4.36,0,0,0-2.32-2.59,4.59,4.59,0,0,0-6.11,2.14l-20.55,41.64L179.8,72.2a4.59,4.59,0,0,0-8.25,4l24,48-24,48.88a4.57,4.57,0,0,0,.29,4.4,4.36,4.36,0,0,0,3.85,2.17h49.59a4.36,4.36,0,0,0,3.84-2.15A4.6,4.6,0,0,0,229.39,173.11Zm-10.76-2.59H183l17.74-36Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-i" d="M225.26,69.62a4.54,4.54,0,0,0-4.59,4.59v100.9a4.59,4.59,0,0,0,9.18,0V74.21A4.54,4.54,0,0,0,225.26,69.62Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-i" d="M245,69.62a4.54,4.54,0,0,0-4.59,4.59v100.9a4.59,4.59,0,0,0,9.18,0V74.21A4.54,4.54,0,0,0,245,69.62Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-m" d="M350.34,174,326.2,73.11a4.67,4.67,0,0,0-9-.11l-21.74,83.9L273.58,73a4.47,4.47,0,0,0-4.44-3.39,4.59,4.59,0,0,0-4.44,3.52L240.56,174a5.2,5.2,0,0,0,.79,4A4.87,4.87,0,0,0,245,179.7H345.9a4.87,4.87,0,0,0,3.65-1.67l0-.06A5.18,5.18,0,0,0,350.34,174Zm-10.26-3.52H301.41l20.06-77.34Zm-50.6,0H250.82l18.61-77.34Z" transform="translate(-171.1 -69.62)"></path>
+            
+            <path class="logo-letra-e" d="M395.13,137.75a4.72,4.72,0,0,0-3.37-4.44l-33.44-8.65L391.77,116a4.71,4.71,0,0,0,3.35-4.43,4.46,4.46,0,0,0-3.37-4.44l-38.36-10,39.12-18.77a4.45,4.45,0,0,0,2.34-2.61,4.66,4.66,0,0,0-.19-3.51,4.45,4.45,0,0,0-2.61-2.34,4.67,4.67,0,0,0-3.52.19L338.11,94.34a4.55,4.55,0,0,0-2.61,4.45,4.73,4.73,0,0,0,3.37,4.13l33.44,8.65-33.43,8.65a4.61,4.61,0,0,0,0,8.88l33.46,8.66-33.45,8.78a4.41,4.41,0,0,0-3.38,4,4.88,4.88,0,0,0,2.6,4.58l50.45,24.14a4.71,4.71,0,0,0,2,.45,4.64,4.64,0,0,0,1.52-.25,4.45,4.45,0,0,0,2.61-2.34,4.66,4.66,0,0,0,.19-3.51,4.45,4.45,0,0,0-2.34-2.61L353.39,152.2l38.34-10A4.47,4.47,0,0,0,395.13,137.75Z" transform="translate(-171.1 -69.62)"></path>
+        </g>
+    </g>
+</svg>
+                <h4>XII Mostra de Estágios da UERJ</h4>
+
+                <a href="index.htm">Início</a> | 
+                <a href="#">Palestras</a> | 
+                <a href="#">Workshop de Empreendedorismo</a> | 
+                <a href="#">Palco Virtual</a>
+
+                <p>® 2019 - Universidade do Estado do Rio de Janeiro - Todos os direitos reservados</p>
+
+            </div>	
+
+        </div>
+    </div>
+</div>
+        <script src="assets/xiime/js/jquery-2.2.4.min.js" type="text/javascript"></script>
+        <script src="assets/xiime/js/bootstrap.min.js" type="text/javascript"></script>
+        <script src="assets/xiime/js/main.js" type="text/javascript"></script>
+    </body>
+</html>
